@@ -26,5 +26,5 @@ nav{
     margin: 0 auto;
     align-items: center;
     max-width: 80;
-    justify-content: space-around;
+    justify-content: space-between;
 }
