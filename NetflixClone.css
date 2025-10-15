@@ -173,3 +173,62 @@ nav button {
     color: white;
 
 }
+
+.fq h2{
+    text-align: center;
+    font-size: 48px;
+    padding: 12px;
+    font-weight: 900;
+}
+.fq{
+     background-color: black;
+     color: white ;
+     padding: 40px;
+}
+
+.fqbox{
+     display: flex;
+    background-color: rgba(45, 41, 41, 0.648);
+    color: white;
+    justify-content: space-between;
+    padding: 26px;
+    max-width: 70vw;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 8px auto;
+    cursor: pointer;
+    /* transition: color 0.1s; */
+}
+
+.fqbox:hover{
+    background-color: rgba(53, 49, 49, 0.801);
+}
+
+.Buttsection{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.Fot1{
+    font-size: 1.3rem;
+}
+.Buttsection input{
+    padding: 12px 30px;
+     background-color: rgba(248, 243, 243, 0.021);
+    margin-right: 0.8rem;
+    font-size: 1rem;
+    color: rgb(241, 237, 237);
+}
+.Buttsection button{
+    padding: 12px 30px;
+    background-color: red;
+    border-color: 1px solid white;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
