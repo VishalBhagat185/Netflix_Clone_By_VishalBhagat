@@ -144,6 +144,17 @@ nav button {
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width:1300px) {
+    .first{
+       flex-wrap: wrap;
+       padding: 2.3rem;
+    }
+    .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    }
+}
 .secImg {
     position: relative;
 }
@@ -214,6 +225,7 @@ nav button {
 }
 .Fot1{
     font-size: 1.3rem;
+    margin-left: 4rem;
 }
 .Buttsection input{
     padding: 12px 30px;
