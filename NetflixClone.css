@@ -144,17 +144,6 @@ nav button {
     justify-content: center;
     align-items: center;
 }
-@media screen and (max-width:1300px) {
-    .first{
-       flex-wrap: wrap;
-       padding: 2.3rem;
-    }
-    .footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    color: white;
-    }
-}
 .secImg {
     position: relative;
 }
@@ -182,7 +171,7 @@ nav button {
 .Sec{
     font-size: 24px;
     color: white;
-
+    
 }
 
 .fq h2{
@@ -192,13 +181,13 @@ nav button {
     font-weight: 900;
 }
 .fq{
-     background-color: black;
-     color: white ;
-     padding: 40px;
+    background-color: black;
+    color: white ;
+    padding: 40px;
 }
 
 .fqbox{
-     display: flex;
+    display: flex;
     background-color: rgba(45, 41, 41, 0.648);
     color: white;
     justify-content: space-between;
@@ -229,7 +218,7 @@ nav button {
 }
 .Buttsection input{
     padding: 12px 30px;
-     background-color: rgba(248, 243, 243, 0.021);
+    background-color: rgba(248, 243, 243, 0.021);
     margin-right: 0.8rem;
     font-size: 1rem;
     color: rgb(241, 237, 237);
@@ -261,11 +250,29 @@ footer{
     justify-content: flex-start;
 }
 .footer-item{
-       display: flex;
-       gap: 23px;
-       flex-direction: column;
+    display: flex;
+    gap: 23px;
+    flex-direction: column;
 } 
 .questions{
     color: white;
     padding: 34px 0px;
+}
+@media screen and (max-width:1300px) {
+    .first{
+       flex-wrap: wrap;
+       padding: 2.3rem; 
+    }
+    .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .footer-item{
+        align-items: center;
+    }
 }
