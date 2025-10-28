@@ -48,6 +48,7 @@
             display: flex;
             list-style: none;
             gap: 2rem;
+            font-size: 1.3rem;
         }
 
         .nav-menu a {
@@ -388,14 +389,17 @@
         }
 
         /* Project Images */
-        .project-1 { background-image: url('https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=200&fit=crop'); }
-        .project-2 { background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=200&fit=crop'); }
-        .project-3 { background-image: url('https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=200&fit=crop'); }
+        .project-1 { background-image: url('Assets/imges/images.jpg'); }
+        .project-2 { background-image: url('Assets/imges/images1.jpg'); }
+        .project-3 { background-image: url('Assets/imges/1.png'); }
 
         .project-content {
             padding: 1.5rem;
         }
 
+        a{
+            text-decoration: none;
+        }
         .project-title {
             font-size: 1.3rem;
             margin-bottom: 1rem;
@@ -530,7 +534,7 @@
             }
 
             .hero h1 {
-                font-size: 2.5rem;
+                font-size: 2rem;
             }
 
             .about-content {
@@ -555,11 +559,11 @@
         }
 
         /* Scroll Animations */
-        .fade-in {
+        /* .fade-in {
             opacity: 0;
             transform: translateY(30px);
-            transition: all 0.6s ease;
-        }
+            /* transition: all 0.6s ease; */
+         } */
 
         .fade-in.visible {
             opacity: 1;
